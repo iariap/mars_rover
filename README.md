@@ -1,8 +1,14 @@
 Given matrix size and a series of commands, answer the robot's position checking boundaries.
 For example:
-position = 0
+```
 matrix_size = 4
 commands = RIGHT, UP, DOWN, LEFT, DOWN, DOWN
-should return 12
-
-https://www.geeksforgeeks.org/position-of-robot-after-given-movements/
+```
+Will consider this matrix:
+```
+    0   1   2   3
+    4   5   6   7
+    8   9   10  11
+    12  13  14  15
+```
+In this case should return 12
